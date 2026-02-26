@@ -1,0 +1,37 @@
+.app-container {
+  width: 100%;
+  max-width: 480px; /* Mobile-first constraint for desktop view */
+  min-height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+/* Loader for Suspense fallback */
+.full-screen-loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background: #0f0a2e;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f0a2e; 
+}
+::-webkit-scrollbar-thumb {
+  background: #3c1661; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7b2cbf; 
+}
