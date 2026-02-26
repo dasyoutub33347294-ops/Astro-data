@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+
+    <!-- PWA Meta -->
+    <meta name="theme-color" content="#0f0a2e" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Palm Reader" />
+
+    <!-- SEO Meta -->
+    <meta name="description" content="AI Palm Reader – Tarot & Astrology Guidance. Get palm reading, tarot cards, horoscope, and spiritual guidance powered by AI." />
+    <meta name="keywords" content="palm reading, tarot, astrology, horoscope, AI, spiritual guidance" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <title>AI Palm Reader – Tarot & Astrology Guidance</title>
+
+    <!-- Splash Screen Inline Style (prevents FOUC) -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html, body {
+        background-color: #0f0a2e;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+      }
+      #root {
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <div style="color: white; text-align: center; padding: 40px; font-family: sans-serif; background: #0f0a2e; height: 100vh; display: flex; align-items: center; justify-content: center;">
+        <p>You need to enable JavaScript to run AI Palm Reader.</p>
+      </div>
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+      </html>
