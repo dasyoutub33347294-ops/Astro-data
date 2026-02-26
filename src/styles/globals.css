@@ -1,0 +1,62 @@
+:root {
+  /* Color Palette */
+  --color-bg-dark: #0f0a2e;
+  --color-bg-card: rgba(30, 20, 60, 0.7);
+  --color-primary: #7b2cbf;
+  --color-primary-light: #9d4edd;
+  --color-accent: #00f0ff;
+  --color-text-main: #ffffff;
+  --color-text-secondary: #e0aaff;
+  --color-text-muted: #94a3b8;
+  
+  /* Gradients */
+  --gradient-bg: radial-gradient(circle at top, #240b36, #0f0a2e);
+  --gradient-btn: linear-gradient(135deg, #7b2cbf 0%, #5a189a 100%);
+  --gradient-gold: linear-gradient(135deg, #ffd700 0%, #ffaa00 100%);
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  
+  /* Borders */
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 32px;
+  --border-glass: 1px solid rgba(255, 255, 255, 0.15);
+  
+  /* Fonts */
+  --font-heading: 'Cinzel', serif;
+  --font-body: 'Inter', sans-serif;
+  
+  /* Safe Area for Mobile */
+  --safe-area-top: env(safe-area-inset-top);
+  --safe-area-bottom: env(safe-area-inset-bottom);
+}
+
+/* Typography Defaults */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--color-text-main);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: var(--spacing-sm);
+}
+
+p {
+  font-family: var(--font-body);
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Glassmorphism Utility */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: var(--border-glass);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
