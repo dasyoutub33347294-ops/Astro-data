@@ -1,0 +1,87 @@
+export const en = {
+  common: {
+    back: "Back",
+    next: "Next",
+    continue: "Continue",
+    loading: "Consulting the stars...",
+    error: "A cosmic disruption occurred.",
+    save: "Save",
+    share: "Share Energy",
+    close: "Close"
+  },
+  splash: {
+    title: "Palm Reader",
+    subtitle: "Unlock your destiny"
+  },
+  onboarding: {
+    title1: "Ancient Wisdom",
+    desc1: "Discover the secrets hidden in the lines of your hand.",
+    title2: "Tarot Guidance",
+    desc2: "Let the cards reveal the path to your inner truth.",
+    title3: "AI Spiritual Guide",
+    desc3: "Chat with our mystical AI for daily support and clarity.",
+    btn_start: "Begin Journey"
+  },
+  profile: {
+    title: "Cosmic Identity",
+    name_label: "Your Name",
+    dob_label: "Date of Birth",
+    tob_label: "Time of Birth (Optional)",
+    gender_label: "Gender",
+    btn_create: "Awaken Profile"
+  },
+  home: {
+    greeting: "Welcome,",
+    daily_mantra: "Your Daily Guidance",
+    feature_palm: "Palm Reading",
+    feature_tarot: "Tarot Cards",
+    feature_horoscope: "Horoscope",
+    feature_chat: "AI Spirit Guide",
+    feature_love: "Love Compatibility",
+    feature_guidance: "Daily Energy"
+  },
+  palm: {
+    title: "Palm Reader",
+    instructions: "Align your hand within the frame. Ensure good lighting.",
+    btn_scan_left: "Scan Left Hand",
+    btn_scan_right: "Scan Right Hand",
+    upload_guide: "Uploading your palm print...",
+    analyzing: "Tracing your life lines...",
+    result_heart: "Heart Line",
+    result_head: "Head Line",
+    result_life: "Life Line",
+    result_fate: "Fate Line"
+  },
+  tarot: {
+    title: "Tarot Reading",
+    pick_card: "Touch a card to reveal its message.",
+    reveal: "Reveal Your Fate",
+    categories: {
+      general: "General",
+      love: "Love",
+      career: "Career",
+      growth: "Growth"
+    }
+  },
+  horoscope: {
+    title: "Daily Horoscope",
+    select_zodiac: "Choose your Sign",
+    mood: "Cosmic Mood",
+    lucky_number: "Lucky Number",
+    lucky_color: "Power Color"
+  },
+  chat: {
+    title: "Spirit Guide",
+    placeholder: "Ask the universe...",
+    welcome: "I am here to guide you. What seeks clarity today?"
+  },
+  settings: {
+    title: "Settings",
+    language: "Language",
+    notifications: "Daily Reminders",
+    privacy: "Privacy Policy",
+    rate: "Rate the App",
+    share_app: "Share the Magic",
+    reset: "Reset Profile"
+  }
+};
