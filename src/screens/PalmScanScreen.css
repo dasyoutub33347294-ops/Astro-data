@@ -1,0 +1,87 @@
+.palm-scan-screen {
+  min-height: 100vh;
+  background: radial-gradient(circle at 50% 20%, #240b36, #0f0a2e);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Progress Bar */
+.palm-progress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 30px;
+  gap: 0;
+}
+
+.progress-step {
+  display: flex;
+  align-items: center;
+}
+
+.progress-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s;
+}
+
+.progress-step.active .progress-dot {
+  background: #00f0ff;
+  border-color: #00f0ff;
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+}
+
+.progress-line {
+  width: 50px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.15);
+  margin: 0 4px;
+}
+
+.progress-step.active .progress-line {
+  background: rgba(0, 240, 255, 0.4);
+}
+
+/* Content */
+.palm-step-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px 40px;
+}
+
+.upload-step {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.analyze-action {
+  width: 100%;
+  max-width: 320px;
+  margin-top: 24px;
+}
+
+/* Analyzing State */
+.analyzing-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-height: 300px;
+}
+
+.analyzing-subtext {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 16px;
+  max-width: 250px;
+  line-height: 1.5;
+}
