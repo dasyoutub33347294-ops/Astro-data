@@ -1,0 +1,87 @@
+export const it = {
+  common: {
+    back: "Indietro",
+    next: "Avanti",
+    continue: "Continua",
+    loading: "Consultando le stelle...",
+    error: "Si è verificata un'interruzione cosmica.",
+    save: "Salva",
+    share: "Condividi",
+    close: "Chiudi"
+  },
+  splash: {
+    title: "Lettore della Mano",
+    subtitle: "Sblocca il tuo destino"
+  },
+  onboarding: {
+    title1: "Saggezza Antica",
+    desc1: "Scopri i segreti nascosti nelle linee della tua mano.",
+    title2: "Guida dei Tarocchi",
+    desc2: "Lascia che le carte rivelino il percorso verso la tua verità.",
+    title3: "Guida Spirituale IA",
+    desc3: "Chatta con la nostra IA mistica per supporto quotidiano.",
+    btn_start: "Inizia il Viaggio"
+  },
+  profile: {
+    title: "Identità Cosmica",
+    name_label: "Il tuo Nome",
+    dob_label: "Data di Nascita",
+    tob_label: "Ora (Opzionale)",
+    gender_label: "Genere",
+    btn_create: "Risveglia Profilo"
+  },
+  home: {
+    greeting: "Benvenuto,",
+    daily_mantra: "La tua Guida Quotidiana",
+    feature_palm: "Lettura della Mano",
+    feature_tarot: "Tarocchi",
+    feature_horoscope: "Oroscopo",
+    feature_chat: "Guida IA",
+    feature_love: "Compatibilità",
+    feature_guidance: "Energia Quotidiana"
+  },
+  palm: {
+    title: "Lettura della Mano",
+    instructions: "Allinea la mano nella cornice. Assicura una buona luce.",
+    btn_scan_left: "Scansiona Mano Sx",
+    btn_scan_right: "Scansiona Mano Dx",
+    upload_guide: "Caricamento impronta...",
+    analyzing: "Tracciando le linee della vita...",
+    result_heart: "Linea del Cuore",
+    result_head: "Linea della Testa",
+    result_life: "Linea della Vita",
+    result_fate: "Linea del Destino"
+  },
+  tarot: {
+    title: "Lettura dei Tarocchi",
+    pick_card: "Tocca una carta per rivelare il messaggio.",
+    reveal: "Rivela il Destino",
+    categories: {
+      general: "Generale",
+      love: "Amore",
+      career: "Carriera",
+      growth: "Crescita"
+    }
+  },
+  horoscope: {
+    title: "Oroscopo Giornaliero",
+    select_zodiac: "Scegli il tuo Segno",
+    mood: "Umore Cosmico",
+    lucky_number: "Numero Fortunato",
+    lucky_color: "Colore Potente"
+  },
+  chat: {
+    title: "Guida Spirituale",
+    placeholder: "Chiedi all'universo...",
+    welcome: "Sono qui per guidarti. Cosa cerchi oggi?"
+  },
+  settings: {
+    title: "Impostazioni",
+    language: "Lingua",
+    notifications: "Promemoria",
+    privacy: "Privacy Policy",
+    rate: "Valuta l'App",
+    share_app: "Condividi la Magia",
+    reset: "Resetta Profilo"
+  }
+};
