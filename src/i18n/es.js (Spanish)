@@ -1,0 +1,87 @@
+export const es = {
+  common: {
+    back: "Atrás",
+    next: "Siguiente",
+    continue: "Continuar",
+    loading: "Consultando las estrellas...",
+    error: "Ocurrió una interrupción cósmica.",
+    save: "Guardar",
+    share: "Compartir Energía",
+    close: "Cerrar"
+  },
+  splash: {
+    title: "Lector de Palma",
+    subtitle: "Descubre tu destino"
+  },
+  onboarding: {
+    title1: "Sabiduría Antigua",
+    desc1: "Descubre los secretos ocultos en las líneas de tu mano.",
+    title2: "Guía del Tarot",
+    desc2: "Deja que las cartas revelen el camino a tu verdad interior.",
+    title3: "Guía Espiritual IA",
+    desc3: "Chatea con nuestra IA mística para apoyo diario.",
+    btn_start: "Comenzar Viaje"
+  },
+  profile: {
+    title: "Identidad Cósmica",
+    name_label: "Tu Nombre",
+    dob_label: "Fecha de Nacimiento",
+    tob_label: "Hora (Opcional)",
+    gender_label: "Género",
+    btn_create: "Despertar Perfil"
+  },
+  home: {
+    greeting: "Bienvenido,",
+    daily_mantra: "Tu Guía Diaria",
+    feature_palm: "Lectura de Palma",
+    feature_tarot: "Cartas del Tarot",
+    feature_horoscope: "Horóscopo",
+    feature_chat: "Guía Espiritual",
+    feature_love: "Amor y Compatibilidad",
+    feature_guidance: "Energía Diaria"
+  },
+  palm: {
+    title: "Lectura de Palma",
+    instructions: "Alinea tu mano dentro del marco. Asegura buena luz.",
+    btn_scan_left: "Escanear Mano Izq.",
+    btn_scan_right: "Escanear Mano Der.",
+    upload_guide: "Subiendo huella de palma...",
+    analyzing: "Trazando tus líneas de vida...",
+    result_heart: "Línea del Corazón",
+    result_head: "Línea de la Cabeza",
+    result_life: "Línea de la Vida",
+    result_fate: "Línea del Destino"
+  },
+  tarot: {
+    title: "Lectura de Tarot",
+    pick_card: "Toca una carta para revelar su mensaje.",
+    reveal: "Revelar Destino",
+    categories: {
+      general: "General",
+      love: "Amor",
+      career: "Carrera",
+      growth: "Crecimiento"
+    }
+  },
+  horoscope: {
+    title: "Horóscopo Diario",
+    select_zodiac: "Elige tu Signo",
+    mood: "Estado Cósmico",
+    lucky_number: "Número de Suerte",
+    lucky_color: "Color de Poder"
+  },
+  chat: {
+    title: "Guía Espiritual",
+    placeholder: "Pregunta al universo...",
+    welcome: "Estoy aquí para guiarte. ¿Qué buscas hoy?"
+  },
+  settings: {
+    title: "Ajustes",
+    language: "Idioma",
+    notifications: "Recordatorios",
+    privacy: "Política de Privacidad",
+    rate: "Calificar App",
+    share_app: "Compartir la Magia",
+    reset: "Restablecer Perfil"
+  }
+};
