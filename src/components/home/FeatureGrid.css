@@ -1,0 +1,15 @@
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  padding: 8px 0;
+  width: 100%;
+}
+
+/* Responsive: 3 columns on slightly wider phones */
+@media (min-width: 420px) {
+  .feature-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+}
