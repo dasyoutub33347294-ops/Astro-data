@@ -1,0 +1,71 @@
+.tarot-screen {
+  min-height: 100vh;
+  background: radial-gradient(circle at 50% 20%, #240b36, #0f0a2e);
+  display: flex;
+  flex-direction: column;
+}
+
+.tarot-content {
+  flex: 1;
+  padding: 10px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Pick Section */
+.tarot-pick-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pick-instruction {
+  color: #e0aaff;
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/* Card Counter */
+.card-counter {
+  display: flex;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.counter-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s;
+}
+
+.counter-dot.revealed {
+  background: #00f0ff;
+  border-color: #00f0ff;
+  box-shadow: 0 0 8px rgba(0, 240, 255, 0.5);
+}
+
+/* Loading */
+.tarot-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-height: 400px;
+}
+
+.tarot-loading-sub {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 12px;
+  max-width: 260px;
+}
