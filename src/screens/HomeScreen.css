@@ -1,0 +1,125 @@
+.home-screen {
+  min-height: 100vh;
+  padding: 20px 20px 100px;
+  background: radial-gradient(circle at 50% 10%, #240b36, #0f0a2e);
+}
+
+/* Header */
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.home-greeting {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.greeting-emoji {
+  font-size: 2rem;
+}
+
+.greeting-text {
+  color: #94a3b8;
+  font-size: 0.85rem;
+  margin-bottom: 2px;
+}
+
+.greeting-name {
+  font-family: 'Cinzel', serif;
+  font-size: 1.3rem;
+  color: #fff;
+  margin: 0;
+}
+
+.settings-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e0aaff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.settings-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+/* AI Chat Banner */
+.ai-chat-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 18px 20px;
+  background: linear-gradient(135deg, rgba(123, 44, 191, 0.3), rgba(0, 240, 255, 0.1));
+  border: 1px solid rgba(123, 44, 191, 0.3);
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 28px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.ai-chat-banner:active {
+  transform: scale(0.98);
+}
+
+.ai-chat-banner:hover {
+  box-shadow: 0 4px 20px rgba(123, 44, 191, 0.3);
+}
+
+.ai-banner-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.ai-banner-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(123, 44, 191, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+.ai-banner-left h3 {
+  color: #fff;
+  font-size: 1rem;
+  margin: 0 0 2px;
+  font-family: 'Inter', sans-serif;
+}
+
+.ai-banner-left p {
+  color: #94a3b8;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.ai-chat-banner svg {
+  color: #00f0ff;
+}
+
+/* Section */
+.home-section {
+  margin-bottom: 24px;
+}
+
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.1rem;
+  color: #e0aaff;
+  margin-bottom: 14px;
+  letter-spacing: 1px;
+}
