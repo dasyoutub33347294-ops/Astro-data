@@ -1,0 +1,34 @@
+.horoscope-screen {
+  min-height: 100vh;
+  background: radial-gradient(circle at 50% 10%, #240b36, #0f0a2e);
+}
+
+.horoscope-content {
+  padding: 10px 20px 40px;
+}
+
+.horoscope-instruction {
+  color: #e0aaff;
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 16px;
+  letter-spacing: 0.5px;
+}
+
+.horoscope-loading {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.horoscope-disclaimer {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.horoscope-disclaimer p {
+  color: #94a3b8;
+  font-size: 0.75rem;
+  margin: 0;
+}
