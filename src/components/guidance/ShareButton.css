@@ -1,0 +1,32 @@
+.share-action-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+  width: 100%;
+  max-width: 250px;
+  margin: 20px auto 0;
+}
+
+.share-action-btn:active {
+  transform: scale(0.96);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.share-action-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: #00f0ff;
+}
+
+.share-icon {
+  font-size: 1.1rem;
+}
