@@ -1,0 +1,87 @@
+export const hi = {
+  common: {
+    back: "वापस",
+    next: "अगला",
+    continue: "जारी रखें",
+    loading: "सितारों से संपर्क हो रहा है...",
+    error: "ब्रह्मांडीय बाधा आई है।",
+    save: "सुरक्षित करें",
+    share: "साझा करें",
+    close: "बंद करें"
+  },
+  splash: {
+    title: "हस्तरेखा पाठक",
+    subtitle: "अपना भाग्य जानें"
+  },
+  onboarding: {
+    title1: "प्राचीन ज्ञान",
+    desc1: "अपने हाथ की रेखाओं में छिपे रहस्यों को जानें।",
+    title2: "टैरो मार्गदर्शन",
+    desc2: "कार्ड्स को अपनी सच्चाई का मार्ग दिखाने दें।",
+    title3: "एआई आध्यात्मिक गुरु",
+    desc3: "दैनिक समर्थन के लिए हमारे एआई से बात करें।",
+    btn_start: "यात्रा शुरू करें"
+  },
+  profile: {
+    title: "आपकी पहचान",
+    name_label: "आपका नाम",
+    dob_label: "जन्म तिथि",
+    tob_label: "जन्म समय (वैकल्पिक)",
+    gender_label: "लिंग",
+    btn_create: "प्रोफाइल बनाएं"
+  },
+  home: {
+    greeting: "स्वागत है,",
+    daily_mantra: "आज का मार्गदर्शन",
+    feature_palm: "हस्तरेखा",
+    feature_tarot: "टैरो कार्ड",
+    feature_horoscope: "राशिफल",
+    feature_chat: "एआई गुरु",
+    feature_love: "प्रेम संगतता",
+    feature_guidance: "दैनिक ऊर्जा"
+  },
+  palm: {
+    title: "हस्तरेखा पठन",
+    instructions: "अपने हाथ को फ्रेम में रखें। अच्छी रोशनी सुनिश्चित करें।",
+    btn_scan_left: "बायां हाथ स्कैन करें",
+    btn_scan_right: "दायां हाथ स्कैन करें",
+    upload_guide: "आपकी हथेली की छवि अपलोड हो रही है...",
+    analyzing: "जीवन रेखाओं का विश्लेषण हो रहा है...",
+    result_heart: "हृदय रेखा",
+    result_head: "मस्तिष्क रेखा",
+    result_life: "जीवन रेखा",
+    result_fate: "भाग्य रेखा"
+  },
+  tarot: {
+    title: "टैरो रीडिंग",
+    pick_card: "संदेश प्रकट करने के लिए एक कार्ड चुनें।",
+    reveal: "भाग्य देखें",
+    categories: {
+      general: "सामान्य",
+      love: "प्रेम",
+      career: "करियर",
+      growth: "विकास"
+    }
+  },
+  horoscope: {
+    title: "दैनिक राशिफल",
+    select_zodiac: "अपनी राशि चुनें",
+    mood: "ब्रह्मांडीय मूड",
+    lucky_number: "लकी नंबर",
+    lucky_color: "शुभ रंग"
+  },
+  chat: {
+    title: "आध्यात्मिक साथी",
+    placeholder: "ब्रह्मांड से पूछें...",
+    welcome: "मैं आपका मार्गदर्शन करने के लिए यहां हूं। आज आप क्या जानना चाहते हैं?"
+  },
+  settings: {
+    title: "सेटिंग्स",
+    language: "भाषा",
+    notifications: "दैनिक रिमाइंडर",
+    privacy: "गोपनीयता नीति",
+    rate: "ऐप को रेट करें",
+    share_app: "ऐप साझा करें",
+    reset: "प्रोफाइल रीसेट करें"
+  }
+};
