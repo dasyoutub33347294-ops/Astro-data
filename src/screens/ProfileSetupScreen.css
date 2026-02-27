@@ -1,0 +1,112 @@
+.profile-screen {
+  min-height: 100vh;
+  padding: 40px 24px;
+  background: radial-gradient(circle at 50% 20%, #240b36, #0f0a2e);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-header-section {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.profile-icon-wrapper {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7b2cbf, #3c096c);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 0 auto 16px;
+  box-shadow: 0 0 25px rgba(123, 44, 191, 0.5);
+}
+
+.profile-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.profile-subtitle {
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+.profile-form {
+  width: 100%;
+  max-width: 360px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  opacity: 0;
+}
+
+.form-label {
+  display: block;
+  color: #e0aaff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+/* Gender Options */
+.gender-options {
+  display: flex;
+  gap: 10px;
+}
+
+.gender-btn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 14px 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.gender-btn.active {
+  background: rgba(123, 44, 191, 0.2);
+  border-color: #00f0ff;
+  box-shadow: 0 0 12px rgba(0, 240, 255, 0.15);
+}
+
+.gender-btn:hover:not(.active) {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.gender-icon {
+  font-size: 1.5rem;
+}
+
+.gender-label {
+  color: #e0aaff;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.gender-btn.active .gender-label {
+  color: #00f0ff;
+}
+
+/* Submit */
+.profile-submit {
+  margin-top: 16px;
+  opacity: 0;
+}
+
+/* Date/Time Input Fix for Dark Theme */
+.input-cosmic[type="date"],
+.input-cosmic[type="time"] {
+  color-scheme: dark;
+}
