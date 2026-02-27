@@ -1,0 +1,84 @@
+.spinner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.orbit-spinner {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  perspective: 800px;
+}
+
+.spinner-container.large .orbit-spinner {
+  width: 80px;
+  height: 80px;
+}
+
+.spinner-container.small .orbit-spinner {
+  width: 30px;
+  height: 30px;
+}
+
+.orbit {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #00f0ff;
+  border-bottom-color: #7b2cbf;
+  animation: spin 1.5s linear infinite;
+}
+
+.orbit:nth-child(1) {
+  animation-delay: 0s;
+}
+.orbit:nth-child(2) {
+  width: 70%;
+  height: 70%;
+  top: 15%;
+  left: 15%;
+  border-top-color: #e0aaff;
+  border-bottom-color: #3c096c;
+  animation-duration: 2s;
+  animation-direction: reverse;
+}
+.orbit:nth-child(3) {
+  width: 40%;
+  height: 40%;
+  top: 30%;
+  left: 30%;
+  border-top-color: #ffffff;
+  border-bottom-color: transparent;
+  animation-duration: 1s;
+}
+
+.center-dot {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  width: 10%;
+  height: 10%;
+  background: #00f0ff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #00f0ff;
+  animation: pulseGlow 1s infinite alternate;
+}
+
+.spinner-text {
+  margin-top: 16px;
+  color: #e0aaff;
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  animation: pulseGlow 2s infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
