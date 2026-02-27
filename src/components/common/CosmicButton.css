@@ -1,0 +1,79 @@
+.cosmic-btn {
+  position: relative;
+  padding: 14px 28px;
+  border-radius: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  border: none;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+
+.cosmic-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  filter: grayscale(100%);
+}
+
+.cosmic-btn.full-width {
+  width: 100%;
+}
+
+/* Variants */
+.cosmic-btn.primary {
+  background: linear-gradient(135deg, #7b2cbf 0%, #3c096c 100%);
+  color: white;
+  box-shadow: 0 4px 15px rgba(123, 44, 191, 0.5);
+}
+
+.cosmic-btn.secondary {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.cosmic-btn.outline {
+  background: transparent;
+  border: 2px solid #7b2cbf;
+  color: #e0aaff;
+}
+
+/* Hover Effects */
+.cosmic-btn.primary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(123, 44, 191, 0.7);
+}
+
+.cosmic-btn.secondary:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.cosmic-btn.outline:hover:not(:disabled) {
+  background: rgba(123, 44, 191, 0.1);
+  color: white;
+}
+
+/* Glow Effect for Primary */
+.btn-glow {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, transparent 60%);
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 0.3s, transform 0.3s;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.cosmic-btn:active .btn-glow {
+  opacity: 1;
+  transform: scale(1);
+  transition: 0s;
+}
