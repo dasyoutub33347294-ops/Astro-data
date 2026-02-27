@@ -1,0 +1,87 @@
+export const ko = {
+  common: {
+    back: "뒤로",
+    next: "다음",
+    continue: "계속",
+    loading: "별들에게 묻는 중...",
+    error: "우주의 방해가 발생했습니다.",
+    save: "저장",
+    share: "공유하기",
+    close: "닫기"
+  },
+  splash: {
+    title: "AI 손금 리더",
+    subtitle: "운명을 확인하세요"
+  },
+  onboarding: {
+    title1: "고대의 지혜",
+    desc1: "손금 속에 숨겨진 비밀을 발견하세요.",
+    title2: "타로 가이드",
+    desc2: "카드가 당신의 내면의 진실을 보여줄 것입니다.",
+    title3: "AI 영적 가이드",
+    desc3: "매일의 지원과 명확성을 위해 AI와 대화하세요.",
+    btn_start: "여행 시작하기"
+  },
+  profile: {
+    title: "코스믹 아이덴티티",
+    name_label: "이름",
+    dob_label: "생년월일",
+    tob_label: "태어난 시간 (선택)",
+    gender_label: "성별",
+    btn_create: "프로필 생성"
+  },
+  home: {
+    greeting: "환영합니다,",
+    daily_mantra: "오늘의 가이드",
+    feature_palm: "손금 보기",
+    feature_tarot: "타로 카드",
+    feature_horoscope: "별자리 운세",
+    feature_chat: "AI 가이드",
+    feature_love: "연애 궁합",
+    feature_guidance: "오늘의 에너지"
+  },
+  palm: {
+    title: "손금 리더",
+    instructions: "손을 프레임 안에 맞춰주세요. 조명을 밝게 하세요.",
+    btn_scan_left: "왼손 스캔",
+    btn_scan_right: "오른손 스캔",
+    upload_guide: "손 이미지를 업로드 중...",
+    analyzing: "생명선을 분석 중...",
+    result_heart: "감정선",
+    result_head: "두뇌선",
+    result_life: "생명선",
+    result_fate: "운명선"
+  },
+  tarot: {
+    title: "타로 리딩",
+    pick_card: "카드를 터치하여 메시지를 확인하세요.",
+    reveal: "운명 확인",
+    categories: {
+      general: "일반",
+      love: "사랑",
+      career: "직업",
+      growth: "성장"
+    }
+  },
+  horoscope: {
+    title: "오늘의 운세",
+    select_zodiac: "별자리 선택",
+    mood: "오늘의 기분",
+    lucky_number: "행운의 숫자",
+    lucky_color: "행운의 색"
+  },
+  chat: {
+    title: "영적 가이드",
+    placeholder: "우주에게 물어보세요...",
+    welcome: "당신을 안내하기 위해 왔습니다. 무엇이 궁금한가요?"
+  },
+  settings: {
+    title: "설정",
+    language: "언어",
+    notifications: "알림 설정",
+    privacy: "개인정보 처리방침",
+    rate: "앱 평가하기",
+    share_app: "앱 공유하기",
+    reset: "프로필 초기화"
+  }
+};
