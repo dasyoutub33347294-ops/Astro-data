@@ -1,0 +1,47 @@
+.guidance-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 24px;
+  margin-bottom: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.guidance-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle at top right, rgba(123, 44, 191, 0.2), transparent 70%);
+  pointer-events: none;
+}
+
+.guidance-icon-header {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.guidance-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.1rem;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.guidance-content {
+  color: #e0aaff;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Types */
+.guidance-card.love {
+  border-color: rgba(255, 77, 109, 0.3);
+}
+
+.guidance-card.career {
+  border-color: rgba(0, 240, 255, 0.3);
+}
