@@ -72,18 +72,41 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,ico,png,svg,woff2}'],
         runtimeCaching: [
           {
+            // API calls should be NetworkOnly (no caching of POST requests usually)
             urlPattern: /^https:\/\/openrouter\.ai\/api\/.*/i,
             handler: 'NetworkOnly',
             options: {
               cacheName: 'ai-api-calls',
-              networkTimeoutSeconds: 30
+              // REMOVED: networkTimeoutSeconds (causes build error with NetworkOnly)
+              backgroundSync: {
+                name: 'ai-retry-queue',
+                options: {
+                  maxRetentionTime: 24 * 60
+                }
+              }
             }
           },
           {
+            // Google Fonts - CacheFirst is perfect for static assets
             urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
             handler: 'CacheFirst',
             options: {
               cacheName: 'google-fonts-cache',
+              expiration: {
+                maxEntries: 10,
+                maxAgeSeconds: 60 * 60 * 24 * 365
+              },
+              cacheableResponse: {
+                statuses: [0, 200]
+              }
+            }
+          },
+          {
+            // Font Files
+            urlPattern: /^https:\/\/fonts\.gstatic\.com\/.*/i,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'gstatic-fonts-cache',
               expiration: {
                 maxEntries: 10,
                 maxAgeSeconds: 60 * 60 * 24 * 365
